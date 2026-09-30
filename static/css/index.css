@@ -177,7 +177,7 @@ body {
 .col {
   text-align: center;
 }
-/* ---- NoDA additions ---- */
+/* ---- DemoPlug additions ---- */
 .figure-img {
   max-width: 100%;
   height: auto;
@@ -225,3 +225,19 @@ body {
 
 .results-table th, .results-table td { vertical-align: middle; }
 .results-table .mean-row { background-color: #eef3fb; }
+
+/* DemoPlug page additions */
+.section-tight { padding-top: 2rem; padding-bottom: 2rem; }
+.method-copy { margin-top: 1rem; }
+.info-card { height: 100%; padding: 2.25rem 2rem; border: 1px solid #d7dce3; border-radius: 10px; background: #f7f9fc; }
+.site-video { width: 100%; display: block; border-radius: 10px; border: 2px solid #bbb; background: #000; }
+.figure-small { max-width: 760px; display: block; margin: 1.25rem auto 0; }
+.compact-table { font-size: 0.92rem; }
+.citation-block { white-space: pre-wrap; text-align: left; padding: 1rem; background: #f5f5f5; border-radius: 6px; font-family: inherit; }
+.results-table th, .results-table td { white-space: nowrap; }
+@media screen and (max-width: 768px) {
+  .publication-title { font-size: 2rem !important; }
+  .publication-authors { font-size: 1.1rem !important; }
+  .results-table { font-size: 0.72rem; }
+  .results-table th, .results-table td { padding: 0.3rem; }
+}
